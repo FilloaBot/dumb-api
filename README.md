@@ -8,7 +8,7 @@ A really simple api used for development of the [filloabot-rs](https://github.co
 This is the quick way to run this standalone:
 
 ```bash
-docker run -d --name filloabot-rs-api -v (pwd)/references.json:/app/references.json:ro -p 8080:5000 filloabot-rs-dumb-api
+docker run -d --name filloabot-rs-dumb-api -v (pwd)/references.json:/app/references.json:ro -p 8080:5000 ghcr.io/FilloaBot/dumb-api:latest
 ```
 If you want to run it together with the filloabot-rs, there is a docker compose in [it's repo](https://github.com/FilloaBot/filloabot-rs/)
 
