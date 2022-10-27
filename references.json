@@ -1,0 +1,24 @@
+{
+        "references": [
+                {
+                        "regex": "linux",
+                        "message_reactions": [
+                                "😍"
+                        ],
+                        "answer_text": "Well... It's actually GNU/Linux.\nJust kidding!. \nI use arch btw.",
+                        "answer_attachment": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/1024px-Heckert_GNU_white.svg.png",
+                        "answer_reactions": [
+                                "👍"
+                        ]
+                },
+                {
+                        "regex": "5$|five$",
+                        "answer_text": "You ended your message with five. There is a rime in spanish for that number that you'd love...",
+                        "answer_attachment": "",
+                        "answer_reactions": [
+                                "😎"
+                        ],
+                        "message_reactions": []
+                }
+        ]
+}
